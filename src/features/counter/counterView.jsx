@@ -8,7 +8,7 @@ const counterView = () => {
 
     return (
         <div>
-            <h2 className='text-xl mb-3 font-semibold'>Counte: {count}</h2>
+            <h2 className='text-xl mb-6 font-semibold'>Counte: {count}</h2>
             <button className=' border px-3 py-1 bg-blue-300 rounded-lg mr-2' onClick={() => {dispatch(increment())}}>Increment</button>
             <button className=' border px-3 py-1 bg-blue-300 rounded-lg' onClick={() => {dispatch(decrement())}}>Decrement</button>
             <button className=' border px-3 py-1 bg-blue-300 rounded-lg ml-2' onClick={() => {dispatch(reset())}}>Reset</button>
