@@ -12,7 +12,7 @@ const counterView = () => {
             <button className=' border px-3 py-1 bg-blue-300 rounded-lg mr-2' onClick={() => {dispatch(increment())}}>Increment</button>
             <button className=' border px-3 py-1 bg-blue-300 rounded-lg' onClick={() => {dispatch(decrement())}}>Decrement</button>
             <button className=' border px-3 py-1 bg-blue-300 rounded-lg ml-2' onClick={() => {dispatch(reset())}}>Reset Number</button>
-            <button className=' border px-3 py-1 bg-blue-300 rounded-lg ml-2' onClick={() => {dispatch(increaseByNumber(5))}}>Increase by 5 Number</button>
+            <button className=' border px-3 py-1 bg-blue-300 rounded-lg ml-2' onClick={() => {dispatch(increaseByNumber(5))}}>Increase by</button>
         </div>
     );
 };
